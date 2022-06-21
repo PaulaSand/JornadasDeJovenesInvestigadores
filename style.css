@@ -1,51 +1,64 @@
 /*---------GENERAL---------*/
 
 html {
-    box-sizing: border-box;  
-  }
+  box-sizing: border-box;  
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: red;
+  font:url("fonts/Overpass-SemiBold.ttf") ;
   
-  *,
-  *::after,
-  *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
+}
+
+/*----------- Header -------------*/
+
+body header {
+  /* margin: 10px; */
+  display: flex;
+  background-color: #680f68;
+  align-items: center;
   
-  body {
-    background-color: red;
-    font:url("fonts/Overpass-SemiBold.ttf") ;
-    
-  }
+}
 
-  /*----------- Header -------------*/
+.logo{
+margin: 5px ;
+background-color: rgb(0, 255, 115);
+align-items: center;
+height:60px;
+}
 
-  body header {
-    margin: 20px;
-    display: flex;
-    background-color: black;
-    
-  }
+.logo img{
+height: 60px;
+}
 
- .navBar {
-    margin: 20px;
-    display: flex;
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-    
-  }
-  ul {
-    margin-left: 20px;
-    color:white;
-    display: flex;
-  }
-  li{
-    list-style: none;
-    margin-right: 20px;
-  }
-  button {
-    background: transparent;
-    font-family:blue;
-  }
+.navBar {
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+ul {
+  padding: 10px;
+  background-color: aquamarine;
+  margin-left: 20px;
+  color:rgb(102, 30, 219);
+  display: flex;
+}
+li{
+  list-style: none;
+  margin-right: 20px;
+}
+button {
+  background: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
