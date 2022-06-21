@@ -23,14 +23,14 @@ body {
 body header {
   /* margin: 10px; */
   display: flex;
-  background-color: #680f68;
+  background-color: #0f3468;
   align-items: center;
   
 }
 
 .logo{
 margin: 5px ;
-background-color: rgb(0, 255, 115);
+background-color: gold;
 align-items: center;
 height:60px;
 }
