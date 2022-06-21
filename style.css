@@ -1,0 +1,51 @@
+/*---------GENERAL---------*/
+
+html {
+    box-sizing: border-box;  
+  }
+  
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: red;
+    font:url("fonts/Overpass-SemiBold.ttf") ;
+    
+  }
+
+  /*----------- Header -------------*/
+
+  body header {
+    margin: 20px;
+    display: flex;
+    background-color: black;
+    
+  }
+
+ .navBar {
+    margin: 20px;
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    
+  }
+  ul {
+    margin-left: 20px;
+    color:white;
+    display: flex;
+  }
+  li{
+    list-style: none;
+    margin-right: 20px;
+  }
+  button {
+    background: transparent;
+    font-family:blue;
+  }
