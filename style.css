@@ -104,16 +104,40 @@ button {
 }
 /*------------ cuerpo -----------*/
 .central{
-  height: 800px;
+  height: 500px;
   text-align: center;
-  color: #032b63
+  color: #032b63;
+  
+
 }
 
 .central h1{  
-  margin: 50px 20px;
+  margin: 70px 20px ;
   font-weight:900 ;
   color: #032b63;
   font-size: 80px;
+}
+/*--------- expositores -----------*/
+.expositores{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+.expositor{
+  /*display: flex;*/
+  margin: 30px 30px;
+  
+}
+.expositor .fotoExpositor{
+  justify-content: center; /* no funciona*/
+}
+ .expositor .expositorInfo{
+  max-width: 600px;
+  
+}
+.expositor a{
+  color:#000000;
 }
 
 /*---------- footer ---------*/
