@@ -117,26 +117,26 @@ button {
   color: #032b63;
   font-size: 80px;
 }
-/*--------- expositores -----------*/
-.expositores{
+/*--------- invitados -----------*/
+.invitados{
   display: flex;
   align-items: center;
   margin-bottom: 50px;
   
 }
-.expositor{
+.invitado{
   /*display: flex;*/
   margin: 30px 30px;
   
 }
-.expositor .fotoExpositor{
+.invitado .fotoInvitado{
   justify-content: center; /* no funciona*/
 }
- .expositor .expositorInfo{
+ .invitado .invitadoInfo{
   max-width: 600px;
   
 }
-.expositor a{
+.invitado a{
   color:#000000;
 }
 
@@ -151,8 +151,30 @@ footer{
   font-weight: 900 ;
  
 }
+footer .contacto{
+  margin: 0px 80px;
+  display: flex;
+}
+footer .contacto :first-child{
+  /*margin-right: inherit;*/
+}
 footer ul {
-  text-align: right;
+  text-align: left;
   list-style: none;
   display: list-item;
+  font-weight: bold;
+
+}
+
+footer li{
+  margin-top: 10px;
+  text-align: left;
+  font-weight: normal;
+
+}
+footer li a{
+  color: #032b63;
+}
+footer li a img{
+  height: 25px;
 }
