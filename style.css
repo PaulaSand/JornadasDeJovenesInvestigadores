@@ -1,3 +1,16 @@
+/* Colores:
+ -azul logo #385898
+ azul oscuro: #0f3468
+ celeste balnquecino #daefff
+ 
+ -amarillo logo #ffd700
+ amarillo maiz #fcb83b
+ amarillo claro para boton #fcdca0
+
+*/
+
+
+
 /*---------GENERAL---------*/
 
 html {
@@ -15,8 +28,9 @@ html {
 
 body {
   width: 100%;
-  background-color: #fcb83b;
+  background-color: #daefff;
   /* font:url("fonts/Overpass-SemiBold.ttf") ;*/
+  font-family:sans-serif ;
   
 } 
 
@@ -32,6 +46,7 @@ header {
 }
 
 .logo{
+
 margin: 5px ;
 background-color: #ffd700;
 align-items: center;
@@ -43,7 +58,8 @@ height: 60px;
 }
 .subdivision{
   padding: 0px 10px;
-  color:rgb(218, 239, 255);
+  color:#fcb83b;
+  /*font-weight: bold*/
 }
 .navBar {
   display: flex;
@@ -86,9 +102,33 @@ button {
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
-
-.central h2{
-  margin: 30px 20px;
+/*------------ cuerpo -----------*/
+.central{
+  height: 800px;
   text-align: center;
+  color: #032b63
+}
+
+.central h1{  
+  margin: 50px 20px;
+  font-weight:900 ;
   color: #032b63;
+  font-size: 80px;
+}
+
+/*---------- footer ---------*/
+footer{
+  background-color: #fcdca0;
+  display: flex;
+}
+.subdivision2{
+  padding: 0px 10px;
+  color:#032b63;
+  font-weight: 900 ;
+ 
+}
+footer ul {
+  text-align: right;
+  list-style: none;
+  display: list-item;
 }

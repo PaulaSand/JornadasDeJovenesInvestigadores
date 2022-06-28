@@ -1,0 +1,9 @@
+
+
+21/6 Creé un logo de SADAF en .svg en base a la imágen encontrada en internet para poder
+modificarle los colores cuando sea necesario.
+
+22/6
+
+22/6 - El cliente pidió eliminar "consultas" de la barra del navegador 
+y quiere ponerlo en el footer.
